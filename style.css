@@ -11,21 +11,22 @@
     clear: both;
 }
 
-.body{
+body{
+    background-color:turquoise;
     font-family:'Lucida Sans Unicode';
     font-size: 18px;
 }
 
-.h1,h2{
+h1,h2{
     color:rgb(25,114,114);
 }
 
-.h1{
+h1{
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.h2{
+h2{
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -79,5 +80,12 @@
 .blog-post img{
     height: 150px;
     width: auto;
+}
+
+.date{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color:rgb(25,114,114);
 }
 
